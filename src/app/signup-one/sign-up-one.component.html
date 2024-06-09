@@ -1,0 +1,23 @@
+<StackLayout class="page">
+    <img class="logo" src="~/assets/logo.png" alt="">
+    <Label text="Sign up to continue" horizontalAlignment="center" class="header"></Label>
+
+    <StackLayout orientation="vertical">
+
+        <TextField class="input" hint="Enter Email here" [(ngModel)]="email"></TextField>
+        <TextField class="input" hint="Enter Password here" [(ngModel)]="password"></TextField>
+
+        <Button text="continue" class="btn btn-primary" (tap)="onContinue()"></Button>
+    </StackLayout>
+
+    <StackLayout class="logos" orientation="horizontal">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+    </StackLayout>
+
+    <StackLayout orientation="horizontal" class="terms-policy">
+        <Label text="Terms of use" (tap)="onTermsOfUse()" class="terms"></Label>
+        <Label text="Privacy Policy" (tap)="onPrivacyPolicy()" class="policy"></Label>
+    </StackLayout>
+</StackLayout>

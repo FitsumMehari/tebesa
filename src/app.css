@@ -1,0 +1,30 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+.intro_page {
+    background-color: white;
+}
+
+Button.-primary {
+    font-size: 18;
+}
+
+Button.email_button {
+    font-size: 22;
+    padding: 10 4;
+    background-color: red;
+    color: white;
+}
+
+Button.use_phone_number {
+    font-size: 22;
+    padding: 10 4;
+    background-color: white;
+    color: red;
+    margin: 1;
+}
+
+label.signup {
+    color: black;
+    font-size: 25;
+    margin: 1;
+}

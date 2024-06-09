@@ -1,0 +1,74 @@
+/* General Styles */
+
+.page {
+    background-color: #000;
+    /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100;
+    height: 100;
+    margin: 40;
+}
+
+.header {
+    color: #e5e5e5;
+    font-size: 15;
+    margin-bottom: 20;
+}
+
+.input {
+    background-color: #e5e5e5;
+    color: #e94057;
+    font-size: 15;
+    padding: 15;
+    border-radius: 10%;
+    margin: 20px 0;
+    width: 350;
+}
+
+.radiogroup {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.radiogroup .gender {
+    background-color: #e5e5e5;
+    color: #e94057;
+    font-size: 15;
+    padding: 15;
+    border-radius: 10%;
+    margin: 20px 0;
+    width: 250;
+}
+
+.btn {
+    margin: 10 30;
+    padding: 10;
+    width: 350;
+    border-radius: 10%;
+}
+
+.btn-primary {
+    background-color: #bc7be4;
+    color: #fff;
+}
+
+.terms-policy {
+    justify-content: space-between;
+    /* margin-top: 20; */
+    margin: 20;
+    margin-left: 90;
+}
+
+.terms,
+.policy {
+    color: #e5e5e5;
+    text-decoration: underline;
+    margin: 10;
+}

@@ -1,0 +1,20 @@
+<StackLayout class="page">
+    <img class="logo" src="~/assets/logo.png" alt="">
+    <Label text="Sign up to continue" horizontalAlignment="center" class="header"></Label>
+
+    <StackLayout orientation="vertical">
+        <Button text="Continue with email" class="btn btn-primary" (tap)="onEmailSignUp()"></Button>
+        <Button text="Use phone number" class="btn btn-secondary" (tap)="onPhoneSignUp()"></Button>
+    </StackLayout>
+
+    <StackLayout class="logos" orientation="horizontal">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+        <img class="btn-logo" src="~/assets/fb.png" alt="">
+    </StackLayout>
+
+    <StackLayout orientation="horizontal" class="terms-policy">
+        <Label text="Terms of use" (tap)="onTermsOfUse()" class="terms"></Label>
+        <Label text="Privacy Policy" (tap)="onPrivacyPolicy()" class="policy"></Label>
+    </StackLayout>
+</StackLayout>

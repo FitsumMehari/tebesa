@@ -1,0 +1,61 @@
+/* General Styles */
+
+.page {
+    background-color: #000;
+    /* Light gray background */
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin: 100;
+}
+
+.header {
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+
+.btn {
+    margin: 10 30;
+    padding: 10;
+    border-radius: 10%;
+}
+
+.btn-logo {
+    width: 150px;
+    margin: 50px;
+}
+
+.btn-primary {
+    background-color: #bc7be4;
+    color: #fff;
+}
+
+.logos {
+    margin-left: 160px;
+}
+
+.btn-secondary {
+    background-color: #f3f3f3;
+    color: #e94057;
+}
+
+
+/* Terms and Policy Styles */
+
+.terms-policy {
+    justify-content: space-between;
+    /* margin-top: 20; */
+    margin: 20;
+    margin-left: 90;
+}
+
+.terms,
+.policy {
+    color: #e5e5e5;
+    text-decoration: underline;
+    margin: 10;
+}
