@@ -22,6 +22,7 @@
 }
 
 .input {
+    placeholder-color: #f17d8c;
     background-color: #e5e5e5;
     color: #e94057;
     font-size: 15;
