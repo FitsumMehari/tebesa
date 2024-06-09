@@ -8,7 +8,7 @@ import { SignUpTwoComponent } from "./signup-two/sign-up-two.component";
 import {SignUpThreeComponent } from "./signup-three/sign-up-three.component"
 
 const routes: Routes = [
-  { path: "", redirectTo: "/signup-three", pathMatch: "full" },
+  { path: "", redirectTo: "/signup-two", pathMatch: "full" },
   { path: "signup", component: SignUpComponent },
   { path: "signup-one", component: SignUpOneComponent },
   { path: "signup-two", component: SignUpTwoComponent },

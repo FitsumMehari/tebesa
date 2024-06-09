@@ -22,7 +22,7 @@ export class SignUpTwoComponent {
 
   onContinue() {
     // Handle phone number sign up logic
-    this.router.navigate(["/signup-two"]);
+    this.router.navigate(["/signup-three"]);
   }
 
   onTermsOfUse() {
