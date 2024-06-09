@@ -1,0 +1,24 @@
+<StackLayout orientation="vertical" class="page">
+    <StackLayout class="titles">
+        <StackLayout orientation="vertical" class="title">
+            <Label text="Add your recent pics" textAlignment="center" class="header"></Label>
+        </StackLayout>
+        <StackLayout orientation="vertical" class="title">
+            <Label textWrap="true" text="Upload 2 photos to start. Add 4 more to make your profile stand out." class="header"></Label>
+        </StackLayout>
+    </StackLayout>
+
+    <StackLayout class="inputs" alignItems="center" orientation="vertical" horizontalAlignment="center">
+        <StackLayout orientation="horizontal">
+            <Button text="&#xf055;" class="fas icons"></Button>
+            <Button text="&#xf055;" class="fas icons"></Button>
+            <Button text="&#xf055;" class="fas icons"></Button>
+        </StackLayout>
+        <StackLayout orientation="horizontal">
+            <Button text="&#xf055;" class="fas icons"></Button>
+            <Button text="&#xf055;" class="fas icons"></Button>
+            <Button text="&#xf055;" class="fas icons"></Button>
+        </StackLayout>
+    </StackLayout>
+    <Button text="Done" class="btn btn-primary" (tap)="onContinue()"></Button>
+</StackLayout>

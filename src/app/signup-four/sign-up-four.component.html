@@ -5,13 +5,13 @@
     </StackLayout>
 
     <StackLayout class="inputs" orientation="vertical">
-        <TextField class="input" keyboardType="number" hint="Phone" [(ngModel)]="password"></TextField>
-        <TextField class="input" keyboardType="email" hint="Email" [(ngModel)]="password"></TextField>
-        <TextField class="input" hint="Password" [(ngModel)]="password"></TextField>
-        <TextField class="input" hint="Rewrite Password" [(ngModel)]="password"></TextField>
+        <TextField class="input" hint="Birth Date" [(ngModel)]="password"></TextField>
+        <TextField class="input" hint="Religion" [(ngModel)]="password"></TextField>
+        <TextField class="input" hint="Languages" [(ngModel)]="password"></TextField>
+        <TextField class="input" hint="Edicational/Work Status" [(ngModel)]="password"></TextField>
 
-        <Button text="Next" class="btn btn-primary" (tap)="onContinue()"></Button>
     </StackLayout>
+    <Button text="Next" class="btn btn-primary" (tap)="onContinue()"></Button>
 
     <StackLayout orientation="horizontal" class="terms-policy">
         <Label text="Terms of use" (tap)="onTermsOfUse()" class="terms"></Label>

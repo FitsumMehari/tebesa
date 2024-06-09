@@ -24,7 +24,7 @@ export class SignUpOneComponent {
 
   onTermsOfUse() {
     // Handle terms of use link
-    alert("Terms of Use clicked!");
+    this.router.navigate(['terms-of-use']);
   }
 
   onPrivacyPolicy() {

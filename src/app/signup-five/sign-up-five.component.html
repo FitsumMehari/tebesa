@@ -1,0 +1,20 @@
+<StackLayout class="page">
+    <StackLayout class="logos">
+        <img class="logo" src="~/assets/logo.png" alt="" />
+        <Label text="Sign up to continue" horizontalAlignment="center" class="header"></Label>
+    </StackLayout>
+
+    <StackLayout class="inputs" orientation="vertical">
+        <TextField class="input" hint="Living In" [(ngModel)]="password"></TextField>
+        <TextField class="input input-bio" hint="Bio" [(ngModel)]="password"></TextField>
+
+        <Label textWrap="true" class="checkbox-text">By clicking Next, you agree to our terms and conditions.....</Label
+    >
+  </StackLayout>
+  <Button text="Next" class="btn btn-primary" (tap)="onContinue()"></Button>
+
+  <StackLayout orientation="horizontal" class="terms-policy">
+    <Label text="Terms of use" (tap)="onTermsOfUse()" class="terms"></Label>
+        <Label text="Privacy Policy" (tap)="onPrivacyPolicy()" class="policy"></Label>
+    </StackLayout>
+</StackLayout>

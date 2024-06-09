@@ -8,13 +8,10 @@
         <TextField class="input" hint="First Name" [(ngModel)]="password"></TextField>
         <TextField class="input" hint="Last Name" [(ngModel)]="password"></TextField>
         <TextField class="input" hint="Middle Name" [(ngModel)]="password"></TextField>
-        <RadioGroup>
-            <RadioButton text="Selection 1"></RadioButton>
-            <RadioButton text="Selection 2"></RadioButton>
-            <RadioButton text="Selection 3"></RadioButton>
-        </RadioGroup>
+        <TextField class="input" hint="Gender    Male   Female" [(ngModel)]="password"></TextField>
+
     </StackLayout>
-    <Button text="Continue" class="btn btn-primary" (tap)="onContinue()"></Button>
+    <Button text="Next" class="btn btn-primary" (tap)="onContinue()"></Button>
 
     <StackLayout orientation="horizontal" class="terms-policy">
         <Label text="Terms of use" (tap)="onTermsOfUse()" class="terms"></Label>

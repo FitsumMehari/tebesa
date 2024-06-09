@@ -32,20 +32,22 @@
     width: 350;
 }
 
-.radiogroup {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+.input-bio {
+    height: 100;
+    /* text-wrap: wrap; */
 }
 
-.radiogroup .gender {
-    background-color: #e5e5e5;
-    color: #e94057;
-    font-size: 15;
-    padding: 15;
-    border-radius: 10%;
-    margin: 20px 0;
-    width: 250;
+.scrollView {
+    height: 450;
+    padding: 10;
+}
+
+.terms-text {
+    color: #e5e5e5;
+    font-size: 16;
+    margin: 20;
+    padding: 10;
+    width: 350;
 }
 
 .btn {

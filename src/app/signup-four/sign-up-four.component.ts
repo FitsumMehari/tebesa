@@ -2,22 +2,29 @@ import { Component } from "@angular/core";
 import { Router } from "@angular/router";
 
 @Component({
-  selector: "app-sign-up",
-  templateUrl: "./sign-up.component.html",
-  styleUrls: ["./sign-up.component.css"],
+  selector: "app-sign-up-four",
+  templateUrl: "./sign-up-four.component.html",
+  styleUrls: ["./sign-up-four.component.css"],
 })
-export class SignUpComponent {
-
+export class SignUpFourComponent {
   constructor(private router: Router) {}
+
+  email = "";
+  password = "";
+  date = "";
+  minDate = "";
+  maxDate = "";
+
+
+
   onEmailSignUp() {
     // Handle email sign up logic
-    // alert("Email Sign Up clicked!");
-    this.router.navigate(['signup-one']);
+    alert("Email Sign Up clicked!");
   }
 
-  onPhoneSignUp() {
+  onContinue() {
     // Handle phone number sign up logic
-    alert("Phone Sign Up clicked!");
+    this.router.navigate(["/signup-five"]);
   }
 
   onTermsOfUse() {
